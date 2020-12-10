@@ -1,0 +1,12 @@
+@import '~bulma/bulma.sass';
+
+.do-it {
+  height: 400px;
+  width: 400px;
+}
+.button {
+  background-color: white;
+  &:hover {
+    background-color: darken(white, 20%);
+  }
+}
