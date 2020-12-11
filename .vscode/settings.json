@@ -1,0 +1,11 @@
+{
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#3298DC",
+    "titleBar.activeBackground": "#3298DC",
+    "titleBar.inactiveBackground": "#3298DC",
+    "statusBar.foreground": "#000",
+    "titleBar.inactiveForeground": "#000",
+    "titleBar.activeForeground": "#000",
+  },
+  "window.title": "✍🏻 Motivational Maddening ✍🏻"
+}

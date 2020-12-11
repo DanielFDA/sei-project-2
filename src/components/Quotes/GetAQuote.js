@@ -3,14 +3,27 @@ import { getAllQuotes } from '../../lib/api'
 import QuizCard from './QuizCard'
 
 function GetAQuote() {
-
+  const [quote, setQuote] = React.useState(null)
   const [quotes, setQuotes] = React.useState(null)
+
+  const handleClick = (e) => {
+    e.preventDefault()
+    const getRandomQuote = () => {
+      const randomIndex = Math.floor(Math.random() * quotes.length)
+      const item = quotes[randomIndex]
+      setQuote(item)
+    }
+    getRandomQuote()
+  }
 
   React.useEffect(() => {
     const getData = async () => {
       try {
         const { data } = await getAllQuotes()
-        setQuotes(data)
+        const filteredData = data.filter(item => {
+          return item.author
+        })
+        setQuotes(filteredData)
       } catch (err) {
         console.log(err)
       }
@@ -19,20 +32,19 @@ function GetAQuote() {
   }, [])
 
   return (
-    <section className="hero is-fullheight-with-navbar is-info">
-      <div className="container">
-        <h1 className="title">Guess who Said the Quote!</h1>
-        <p>Who said:</p>
-      </div>
-      <div>{quotes ?
-        quotes.map((quote, i) => (
-          <QuizCard key={i.toString()} {...quote} />
-        ))
-        :
-        <p>...loading</p>
-      }
-      </div>
-    </section>
+    <>
+      <section className="sectionGetAQuote get-a-quote ">
+        <div className="container">
+          <div className="card-div">
+            <button id="bStyle" className="button is-center"
+              onClick={handleClick}>Get inspiration
+            </button>
+            {quote && <QuizCard {...quote} />}
+          </div>
+        </div>
+      </section>
+    </>
   )
-}   
+}
+
 export default GetAQuote

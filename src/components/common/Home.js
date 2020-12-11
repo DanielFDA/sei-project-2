@@ -17,7 +17,7 @@ function Home() {
               <button className="button is-center">Play</button>
             </Link>
           </section>
-          <section className="section is-medium is-center level-item">
+          <section className="section is-center level-item">
             <img className="do-it" src='https://media4.giphy.com/media/CpgNjk2E54p7W/200w.webp?cid=ecf05e47cmm8ml4fl3fordaxcrfwmwv2w043t3cmpgjrm3me&rid=200w.webp' alt='Just Do It'/>
           </section>
         </div>

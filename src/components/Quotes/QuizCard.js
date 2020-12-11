@@ -1,14 +1,14 @@
 import React from 'react'
 
-function QuizCard({ text, author }) {
+function QuizCard(quizQuote) {
   return (
-    <div className="column is-half-desktop is-one-third-tablet is-offset-one-quarter">
+    <div className= "column is-half-desktop is-one-third-tablet">
       <div className="card">
-        <div className="card-header">
-          <div className="card-header-title">{author}</div>
-        </div>
         <div className="card-content">
-          <h5>{text}</h5>
+          <p>{quizQuote.text}</p>
+        </div>
+        <div className="card-footer">
+          <div className="card-footer-title">{quizQuote.author}</div>
         </div>
       </div>
     </div>
