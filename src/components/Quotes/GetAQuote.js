@@ -17,7 +17,6 @@ function GetAQuote() {
     }
     getData()
   }, [])
-  console.log(quotes)
 
   return (
     <section className="hero is-fullheight-with-navbar is-info">
