@@ -17,7 +17,6 @@ function Quiz() {
 
 
   const handleGame = (e) => {
-    // e.preventDefault()
     if (game === 10) {
       alert(`You've scored ${correctOption} out of 10 answers right`)
       history.push('/')
@@ -29,12 +28,10 @@ function Quiz() {
     }
     setGame(game + 1)
   }
-  // console.log('correctOption', correctOption)
 
 
   React.useEffect(() => {
     const getData = async () => {
-      // console.log('getData is running')
       try {
         const { data } = await getAllQuotes()
         const filteredData = data.filter(item => {
@@ -51,15 +48,12 @@ function Quiz() {
   }, [])
 
   React.useEffect(()=> {
-    // get random index value
     if (!quotes) return 
 
     let item = quotes[Math.floor(Math.random() * quotes.length)]
     while (playedAuthors.includes(item.author)) {
-      // console.log(item)
       item = { ...quotes[Math.floor(Math.random() * quotes.length)] }
     }
-    // get random item
     const options = getOptions(quotes, item)
     setOptions(options)
     setPlayedAuthors([...playedAuthors, item.author])
