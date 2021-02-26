@@ -51,7 +51,7 @@ In this section I will do my best to explain what the functions do and how the a
 
 The first thing Max and I did was talk about all the possible ideas and what we wanted to build for this website, previous to sending us onto developing this project we were shown a few examples of other websites made by previous students and they gave us a general idea of what we could build, Max and I chose to make a guess the author quiz.
 
-Once we got hold of the API the first step was to get the data 
+Once we got hold of the API the first step was to get the data.
 
 ```js
   React.useEffect(() => {
@@ -72,7 +72,7 @@ Once we got hold of the API the first step was to get the data
 
 Here we requested the data from the api, after which we filtered it before setting it to state to make sure that only the quotes that had an author would be used since the API had quotes without a designated author.
 
-Next we'll see how we managed to randomize the position of the quote that would be the right answer of the quiz for one round  
+Next we'll see how we managed to randomize the position of the quote that would be the right answer of the quiz for one round.
 
 ```js
 const getOptions = (quotes, quizQuote) => {
@@ -118,7 +118,7 @@ Then depending on the number that we got from the variable randomOptionsNumber w
 
 For this function we overcomplicated ourselves a little bit but this is how we managed to get it working the fastest, and we didn't have time to go back and refactor things. Take into account that we had just learned the basics of React and working with API's so we were in a hurry to get the website up and running, since we only had 2 days.
 
-Then for the last complex function of this project we have 
+Then for the last complex function of this project we have.
 
 ```js
   React.useEffect(()=> {
@@ -141,7 +141,7 @@ Then we created a variable called item that would be assigned a random quote fro
 
 After that we created a variable called options tasked with running the function getOptions which would give us all the quotes and the quizquote that would be the right answer for that round. Then we stored everything inside the Options state and stored the author from the right quote of the round in another state so we could compare it for the following rounds. At last we set the right quote to a state called quizQuote.
 
-Then all that was left to do was create the function that would take care of handling the game 
+Then all that was left to do was create the function that would take care of handling the game.
 
 ```js 
   const handleGame = (e) => {
@@ -180,9 +180,9 @@ My biggest challenge on this project was adapting to the short timeframe, maybe 
 
 ### Some Learnings
 
-Most of the learning here was heavily oriented towards knowledge about either the technologies we used or the heavy lifting you can do if you set yourself up to it when you have a short window of time to make something from scratch. Didn't have much to time for specific cases or situations, almost all the time was spent learning how to do stuff and implementing it and fixing any bugs along the way
+Most of the learning here was heavily oriented towards knowledge about either the technologies we used or the heavy lifting you can do if you set yourself up to it when you have a short window of time to make something from scratch. Didn't have much to time for specific cases or situations, almost all the time was spent learning how to do stuff and implementing it and fixing any bugs along the way.
 
 This project was one of those that taught me a lot about the basics of React and showed me that there was so much I didn't know about React and programming in general (looking back I'm even more bamboozled now) that kind of scared me in the beginning but also intrigued me a lot and made me want to spent as much time learning as I could, to be able to get to a comfortable level of React and programming in general.
 
 <!-- 
-[Index](./README.md##index) -->
+[Index](./README.md##index) -->g
