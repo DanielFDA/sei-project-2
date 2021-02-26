@@ -12,8 +12,8 @@ function Quiz() {
   })
 
   const [options, setOptions] = React.useState(null)
-  const [game, setGame] = React.useState(null)
-  const [correctOption, setCorrectOption] = React.useState(null)
+  const [game, setGame] = React.useState(1)
+  const [correctOption, setCorrectOption] = React.useState(0)
 
 
   const handleGame = (e) => {
@@ -38,8 +38,6 @@ function Quiz() {
           return item.author
         })
         setQuotes(filteredData)
-        setGame(1)
-        setCorrectOption(0)
       } catch (err) {
         console.log(err)
       }
@@ -54,7 +52,7 @@ function Quiz() {
     while (playedAuthors.includes(item.author)) {
       item = { ...quotes[Math.floor(Math.random() * quotes.length)] }
     }
-    const options = getOptions(quotes, item)
+    const options = getOptions(quotes, item)z
     setOptions(options)
     setPlayedAuthors([...playedAuthors, item.author])
     setQuizQuote(item)

@@ -42,7 +42,7 @@ after that you can start the app with `yarn start`
 
 My duo for this project was [Max](https://github.com/maccymg)
 
-!Important: Sadly the API that was used for this project has been taken down indefinitely, for learning purposes I will still make the readme and try to explain everything as it was, take into account that this API was simple, it was one JSON file filled with objects (around 2000) and every object would have a quote and it's author. The authors were varied there was no theme to it.
+Important: Sadly the API that was used for this project has been taken down indefinitely, for learning purposes I will still make the readme and try to explain everything as it was, take into account that this API was simple, it was one JSON file filled with objects (around 2000) and every object would have a quote and it's author. The authors were varied there was no theme to it.
 
 In this section I will do my best to explain what the functions do and how the application works, if you choose you can skip the explanations and go straight to my thought process during the building of this app.
 
@@ -165,7 +165,9 @@ This one took care of comparing the selected option (author) with the right answ
 
 ### Thoughts
 
-This app was pretty challenging in terms of logic back when we made it, looking back the API certainly limited the amount of things that we could work with, but even then the time that we had to work with wasn't really enough to do much more than we did so I'm pleased with the result, looking back the getOptions function needs refactoring, the same could be achieved with a lot less code and some of the variable names that we chose have confusing names like item. In general the app was pretty solid but needed more time to smooth things out and look better, with this app as well we couldn't put as much time into styling it due to the short amount of time that we got left after finishing the logic and displaying everything.
+This app was pretty challenging in terms of logic back when we made it, looking back the API certainly limited the amount of things that we could work with, but even then the time that we had to work with wasn't really enough to do much more than we did so I'm pleased with the result, looking back the getOptions function needs refactoring, the same could be achieved with a lot less code and some of the variable names that we chose have confusing names like "item". 
+
+In general the app was pretty solid but needed more time to smooth things out and look better, with this app as well we couldn't put as much time into styling it due to the short amount of time that we got left after finishing the logic and displaying everything.
 
 The communication here played a huge role because at this point we didn't use git so we were basically sharing code as we went. So it was imperative that we knew what each other was working on, and it's something that we did pretty well, we assisted each other when needed and kept in comms for the biggest part of the day. 
 
@@ -180,7 +182,7 @@ My biggest challenge on this project was adapting to the short timeframe, maybe 
 
 Most of the learning here was heavily oriented towards knowledge about either the technologies we used or the heavy lifting you can do if you set yourself up to it when you have a short window of time to make something from scratch. Didn't have much to time for specific cases or situations, almost all the time was spent learning how to do stuff and implementing it and fixing any bugs along the way
 
-This project was one of those that teached me a lot about the basics of React and showed me that there was so much I didn't know about React and programming in general (looking back I'm even more bamboozled now) that kind of scared me in the beginning but also intrigued me a lot and made me want to spent as much time learning as I could, to be able to get to a comfortable level of React and programming in general.
+This project was one of those that taught me a lot about the basics of React and showed me that there was so much I didn't know about React and programming in general (looking back I'm even more bamboozled now) that kind of scared me in the beginning but also intrigued me a lot and made me want to spent as much time learning as I could, to be able to get to a comfortable level of React and programming in general.
 
-
-[Index](./README.md##index)
+<!-- 
+[Index](./README.md##index) -->
