@@ -185,4 +185,4 @@ Most of the learning here was heavily oriented towards knowledge about either th
 This project was one of those that taught me a lot about the basics of React and showed me that there was so much I didn't know about React and programming in general (looking back I'm even more bamboozled now) that kind of scared me in the beginning but also intrigued me a lot and made me want to spent as much time learning as I could, to be able to get to a comfortable level of React and programming in general.
 
 <!-- 
-[Index](./README.md##index) -->g
+[Index](./README.md##index) -->
