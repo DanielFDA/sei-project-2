@@ -46,6 +46,9 @@ Important: Sadly the API that was used for this project has been taken down inde
 
 In this section I will do my best to explain what the functions do and how the application works, if you choose you can skip the explanations and go straight to my thought process during the building of this app.
 
+<p align="center" width="100%">
+    <img width="95%" src="src/assets/inspiration.png"> 
+</p>
 
 ### Explanations
 
@@ -73,6 +76,10 @@ Once we got hold of the API the first step was to get the data.
 Here we requested the data from the api, after which we filtered it before setting it to state to make sure that only the quotes that had an author would be used since the API had quotes without a designated author.
 
 Next we'll see how we managed to randomize the position of the quote that would be the right answer of the quiz for one round.
+
+<p align="center" width="100%">
+    <img width="95%" src="src/assets/quiz.png"> 
+</p>
 
 ```js
 const getOptions = (quotes, quizQuote) => {
@@ -183,6 +190,12 @@ My biggest challenge on this project was adapting to the short timeframe, maybe 
 Most of the learning here was heavily oriented towards knowledge about either the technologies we used or the heavy lifting you can do if you set yourself up to it when you have a short window of time to make something from scratch. Didn't have much to time for specific cases or situations, almost all the time was spent learning how to do stuff and implementing it and fixing any bugs along the way.
 
 This project was one of those that taught me a lot about the basics of React and showed me that there was so much I didn't know about React and programming in general (looking back I'm even more bamboozled now) that kind of scared me in the beginning but also intrigued me a lot and made me want to spent as much time learning as I could, to be able to get to a comfortable level of React and programming in general.
+
+<p align="center" width="100%">
+    <img width="95%" src="src/assets/home.png"> 
+</p>
+
+
 
 <!-- 
 [Index](./README.md##index) -->
