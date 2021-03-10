@@ -195,7 +195,5 @@ This project was one of those that taught me a lot about the basics of React and
     <img width="95%" src="src/assets/home.png"> 
 </p>
 
-
-
 <!-- 
 [Index](./README.md##index) -->
