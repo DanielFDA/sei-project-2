@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Home() {
   return (
-    <section className="hero is-fullheight-with-navbar is-info">
+    <section className="is-fullheight-with-navbar is-info">
       <div className="hero-body">
         <div className="container">
           <section className="section is-small">
